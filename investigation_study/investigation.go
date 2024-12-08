@@ -1,5 +1,7 @@
 package main
 
+import "fmt"
+
 /*
 
 1. First this i know about that i can't use short hand inference is grouping
@@ -14,5 +16,13 @@ const (
 )
 
 func main() {
-  // fmt.Println(USER_EMAIL, USER_ID, USER_PASSWORD)
+
+  // when ever i use var keyword to create variables go compiler complain me to use this variables
+  var (
+    student string = "Noman"
+    age int = 89
+    isStudent bool = true
+  )
+
+  // fmt.Println(student,age, isStudent)
 }
