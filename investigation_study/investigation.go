@@ -19,10 +19,18 @@ func main() {
 
   // when ever i use var keyword to create variables go compiler complain me to use this variables
   var (
-    student string = "Noman"
-    age int = 89
-    isStudent bool = true
+    student = "Noman"
+    age = 89
+    isStudent = true
   )
 
-  // fmt.Println(student,age, isStudent)
+  fmt.Println(student,age, isStudent)
+
+  // so i cant use short hand notation in grouping in var or constant
+  // const (
+  //   CLOUDINARY_API_KEY := "9393939"
+  //   CLOUD_NAME := "cloud"
+  //   CLOUD_PASSWORD := "password"
+  // )
+
 }
