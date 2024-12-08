@@ -33,4 +33,10 @@ func main() {
   //   CLOUD_PASSWORD := "password"
   // )
 
+
+  // if i want to use short hand notation with grouping i need to use this way without var or const keyword
+
+    CLOUDINARY_API_KEY, CLOUD_NAME, CLOUD_PASSWORD := "9393939", "cloud", 909090990
+    fmt.Println(CLOUDINARY_API_KEY, CLOUD_NAME, CLOUD_PASSWORD)
+  
 }
